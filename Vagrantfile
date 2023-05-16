@@ -24,7 +24,7 @@ config.vm.define "web01" do |box|
   box.vm.hostname = "web01"
   box.vm.network "private_network", ip: "192.168.33.2"
   box.vm.provider "virtualbox" do |vb|
-  vb.memory = "512"
+  vb.memory = "1024"
   vb.cpus = "2"
   end
   box.vm.provision "init", run: "once", type: "shell", path: "provisions/default_setup.sh"
@@ -40,7 +40,7 @@ config.vm.define "web02" do |box|
   box.vm.hostname = "web02"
   box.vm.network "private_network", ip: "192.168.33.2"
   box.vm.provider "virtualbox" do |vb|
-  vb.memory = "512"
+  vb.memory = "1024"
   vb.cpus = "2"
   end
   box.vm.provision "init",run: "once", type: "shell", path: "provisions/default_setup.sh"
