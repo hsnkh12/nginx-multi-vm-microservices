@@ -1,4 +1,6 @@
 # nginx-multi-vm-microservices
+A comprehensive solution for setting up a multi-VM environment to host and manage microservices using NGINX. It provides a seamless development and testing environment for building and deploying microservices-based applications.   
+
 
 ## Getting Started
 To get started with the multi-VM environment, follow these steps:
