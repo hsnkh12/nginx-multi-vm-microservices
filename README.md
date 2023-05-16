@@ -29,11 +29,11 @@ Replace <vm-name> with the name of the desired VM (apigateway, web01, or web02).
  This Vagrant configuration sets up the following three VMs:
 
 ### VM 1: apigateway
-Box: ubuntu/trusty64
-Hostname: apigateway
-IP Address: 192.168.33.1
-Memory: 512MB
-CPUs: 2
+Box: ubuntu/trusty64___
+Hostname: apigateway___
+IP Address: 192.168.33.1___
+Memory: 512MB___
+CPUs: 2___
   
 ### VM 2: web01
 Box: ubuntu/trusty64
